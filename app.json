@@ -1,0 +1,40 @@
+{
+  "expo": {
+    "name": "posappe",
+    "slug": "posappe",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/system.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/system.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/system.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.prolinkpc.posappe"
+    },
+    "web": {
+      "favicon": "./assets/system.png"
+    },
+    "plugins": [
+      "expo-sqlite",
+      "expo-localization",
+      "expo-secure-store"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "fe133d82-d075-43f3-b8c6-1e215e1217c8"
+      }
+    },
+    "owner": "prolinkpc"
+  }
+}
